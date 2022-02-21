@@ -1,1 +1,28 @@
+{
+  "Main_items":        {                      
+                        "ID":"unique bug ID",
+                        "Title/Summary":"clearly and briefly describes the essence of this bug", 
+                        "Steps_to_Replay": "a clear, consistent description of the steps / actions to be taken to reproduce the bug with all the necessary information",
+                        "Actual_result":"the result we see",
+                        "Expected_result":"the result we wanted/expected to see",
+                        "Bug_Severity":"shows how serious are the consequences of the bug in terms of the impact on the system (S4|Blocker, S3|Critical, S2|Major, S1|Minor"
+                        },
+  
+  "Optional items":    {
+                        "Screenshot/video":"image/video that clearly and visually demonstrates the bug",  
+                        "Requirement":"reference to a requirement that has not been complied with",  
+                        "Bug type":"to analyze weaknesses in software, bugs can be classified into types",
+                        "Priority":"the turn in which the bug will be fixed (High -> Medium -> Low)",
+                        "Additional files":"files that are needed to reproduce the bug (files of a certain size, type, logs, etc.)",
+                        "Environment":"information about the environment in which the bug is reproduced (browser version, OS, screen size, test server, etc.)",
+                        "Status":"current status of the bug in its lifecycle (Open, In Progress...)",
+                        "Author":"the person who caused the bug (needed to clarify the information, if necessary)",
+                        "Performer":"the person who is working on the bug at the moment",
+                        "Comments":"discussion on fixing the bug",
+                        "Version":"the software version in which the bug was found",
+                        "Version of fix":"the software version in which the bug fix will be added"
+                        }
 
+
+
+}
